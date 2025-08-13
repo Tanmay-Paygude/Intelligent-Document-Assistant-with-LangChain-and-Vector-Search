@@ -1,0 +1,3 @@
+Sample Document: RPA + GenAI Primer
+RPA automates rule-based tasks. With GenAI, teams build data ingestion, vector search,
+and agentic flows. RAG = vector search + LLM for grounded answers.
