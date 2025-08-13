@@ -1,2 +1,16 @@
-# Intelligent-Document-Assistant-with-LangChain-and-Vector-Search
-Phishing URL Detection – A Python-based machine learning project that classifies URLs as legitimate or phishing using feature extraction and classification algorithms.  Tech: Python, scikit-learn, pandas, numpy.
+# Intelligent Document Assistant (LangChain-style RAG starter)
+A portfolio-ready starter showing an **AI document Q&A assistant** with Streamlit, SentenceTransformers embeddings, and FAISS vector search.
+
+## Quick start
+```bash
+python -m venv venv
+source venv/bin/activate   # mac/linux
+venv\Scripts\activate    # windows
+
+pip install -r requirements.txt
+streamlit run app/app.py
+```
+Upload `sample_data/sample.txt` and ask questions.
+
+## Optional OpenAI answers
+Set `OPENAI_API_KEY` env var and choose **OpenAI (answers)** in the UI.
